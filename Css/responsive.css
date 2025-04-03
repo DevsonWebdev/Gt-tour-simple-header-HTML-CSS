@@ -1,0 +1,193 @@
+/* TAB RESPONSIVENESS
+ */
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        height: 163vh;
+    }
+
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 5rem .5fr 32rem;
+        padding: 1rem;
+        padding-bottom: 1.8rem;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    .uxIcont {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .uxIcont .ui-btns {
+        margin-left: 1rem;
+    }
+
+    section {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    section h4 {
+        text-align: center;
+        padding-left: 2rem;
+    }
+
+    section h4,
+    section h1,
+    section p {
+        text-align: center;
+        padding-left: 2rem;
+    }
+
+    .main-textCont {
+        text-align: center;
+    }
+
+    .main-textCont section h4 {
+        font-size: 1rem;
+        font-size: 300;
+    }
+
+    section .btnCont {
+        margin-left: auto;
+        transform: translateX(50%);
+    }
+
+    aside {
+        margin-bottom: 1rem;
+        border: .2rem solid rgba(255, 255, 255, 0.1);
+        border-radius: .5rem;
+    }
+
+    .hideBtn {
+        display: none;
+    }
+
+    .list-heade {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:768px) {
+    body {
+        height: 187vh;
+    }
+
+    header {
+        grid-template-columns: none;
+        grid-template-rows: 5rem .5fr 32rem;
+        padding: 1rem;
+        padding-bottom: 1.8rem;
+    }
+
+    nav {
+        /* position: fixed;
+        bottom: 0rem;
+        left: 0rem;
+        right: 0rem; */
+        flex-direction: row;
+    }
+
+    .main-icon .uxIcont .ui-btns,
+    .main-icon .uxIcont .main-icon .ui-btns {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .uxIcont {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .uxIcont .ui-btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .uxIcont .ui-btns .ux-icons {
+        width: inherit;
+        height: inherit;
+        transform: rotate(-45deg);
+
+    }
+
+    section {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .main-textCont section h4 {
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+
+    .main-textCont section h1 {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .main-textCont section p {
+        font-size: .9rem;
+        font-weight: 200;
+    }
+
+    .main-textCont .main-heading {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .main-textCont .section h4,
+    .main-textCont section h1,
+    .main-textCont section p {
+        text-align: center;
+        padding-left: 2rem;
+    }
+
+    .main-textCont {
+        text-align: center;
+    }
+
+    .main-textCont .bttnCon {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .main-textCont .bttnCon .add-to-fav {
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+
+    .main-textCont section h4 {
+        font-size: 1rem;
+        font-size: 300;
+    }
+
+    section .btnCont {
+        margin-left: auto;
+        transform: translateX(50%);
+    }
+
+    aside {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border: .2rem solid rgba(255, 255, 255, 0.1);
+        border-radius: .5rem;
+    }
+
+    .hideBtn {
+        display: none;
+    }
+
+    .list-heade {
+        padding: 1rem;
+    }
+}
