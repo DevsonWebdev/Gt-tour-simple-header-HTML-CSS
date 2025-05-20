@@ -1,2 +1,1 @@
-﻿# This is just a simple which is almost responsive ,
- It improves design and css skills to thode who seek experience in CSS
+﻿# This is just a simple header which is almost responsive.
